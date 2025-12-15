@@ -105,6 +105,46 @@ The website will show ciphertext, copy the Gibberish message text.
 
 ![screenshoot3](img/screenshoot3.png)
 
+save that ciphertext into a file ```website_output.txt```
+Decode it using the UNLOCK_KEY
+
+```
+openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -salt -base64 \
+-in website_output.txt \
+-out decoded_message.txt \
+-pass pass:'[UNLOCK_KEY]'
+
+```
+Read the final message:
+
+```
+Well done — the glitch is fixed. Amazing job going the extra mile and saving the site. Take this flag THM{REDACTED}
+
+NEXT STEP:
+If you fancy something a little...spicier....use the FLAG you just obtained as the passphrase to unlock:
+/home/eddi_knapp/.secret/dir
+
+That hidden directory has been archived and encrypted with the FLAG.
+Inside it you'll find the sidequest key.
+```
+
+Decrypt the Sidequest
+
+```
+cd ~/.secret
+
+gpg --batch --yes --passphrase '[flag]' \
+-o dir.tar.gz -d dir.tar.gz.gpg
+
+# Now extract it:
+tar -xzf dir.tar.gz
+ls dir
+
+```
+the picture will be like this
+
+![sq1.png](img/sq1.png)
+
 
 
 

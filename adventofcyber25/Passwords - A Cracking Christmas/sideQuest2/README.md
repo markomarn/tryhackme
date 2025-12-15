@@ -7,6 +7,8 @@ This sidequest has the same context, namely password cracking, so we first check
 ```
 ls -la 
 ```
+![screenshoot1](img/screenshoot1.png)
+
 and we see that we find .Passwords.kdbx
 
 ```

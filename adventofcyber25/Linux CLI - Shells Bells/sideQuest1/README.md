@@ -89,17 +89,17 @@ cat /home/eddi_knapp/Documents/mcskidy_note.txt
 The note says to edit ```/home/socmas/2025/wishlist.txt```  with UNLOCK_KEY: [REDACTED], replace the contents with the new text, and save it.
 
 ```
-Chocolate egg assortments (assorted sizes and flavours)
-Hand-painted decorative Easter eggs
-Easter basket with plush toys and treats
-Seasonal flower bouquet (tulips & daffodils)
-Bunny-themed cookie gift boxes
-Spring picnic hamper with pastel treats
-DIY egg-decorating kit with paints and stencils
-Ceramic egg display stand for mantels
-Easter egg hunt supply pack (egg fillers & clues)
-Pastel ribbon and wrapping set for gifts
+Hardware security keys (YubiKey or similar)
+Commercial password manager subscriptions (team seats)
+Endpoint detection & response (EDR) licenses
+Secure remote access appliances (jump boxes)
+Cloud workload scanning credits (container/image scanning)
+Threat intelligence feed subscription
 [UNLOCK_KEY]
+Secure code review / SAST tool access
+Dedicated secure test lab VM pool
+Incident response runbook templates and playbooks
+Electronic safe drive with encrypted backups
 ```
 
 

@@ -56,6 +56,23 @@ Failed to use huge pages (not pre-allocated via sysctl? that's fine)
 [</REDACTED>]      (.Passwords)     
 1g 0:00:01:13 DONE (2025-12-15 14:30) 0.01366g/s 1.312p/s 1.312c/s 1.312C/s harrypotter..ihateyou
 Use the "--show" option to display all of the cracked passwords reliably
+
 Session completed
 ```
+Open the KeePass database.
+And I Opened the Database.kdbx with kepassx GUI app.
+
+```
+sudo apt install keepassx
+```
+
+After opening it with KeePassX, entering the password, and we see that there is an image file named sq2.png.
+
+![screenshoot2](img/screenshoot2.png)
+
+and we can open it.
+
+![screenshoot2](img/screenshoot3.png)
+
+and we can use it to unlock the Scheme [Catcher quest](https://tryhackme.com/room/sq2-aoc2025-JxiOKUSD9R)
 

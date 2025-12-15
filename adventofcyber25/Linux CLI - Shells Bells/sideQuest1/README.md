@@ -45,6 +45,26 @@ This shows the commit history. To see actual file contents from a commit:
 ```
 +PASSFRAG2: [REDACTED]
 ```
+Clue number three, **“When pixels sleep, their tails sometimes whisper plain words. Listen to the tail.”**, refers to an image file.
+
+```
+ls -la ~/Pictures
+```
+Searching for hidden files.
+and You’ll see a hidden .easter_egg picture.
+
+```
+cat cat ~/Pictures/.easter_egg 
+```
+And at the very bottom.
+
+```
+~~ HAPPY EASTER ~~~
+PASSFRAG3: [REDACTED]
+
+```
+
+
 
 
 

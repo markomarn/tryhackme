@@ -1,4 +1,4 @@
-#SideQuest 1 🎯 
+# SideQuest 1 🎯 
 
 For those who consider themselves intermediate and want another challenge, check McSkidy's hidden note in ```/home/mcskidy/Documents/``` to get access to the key for Side Quest 1! Accessible through our Side Quest Hub!
 
@@ -64,6 +64,27 @@ PASSFRAG3: [REDACTED]
 
 ```
 
+# Combining the three flags 🏳️ 
+
+Combining the three flags into one to produce the passphrase required to decrypt one of the encrypted files on the machine.
+
+```
+find ~ -name "*.gpg"
+```
+output: 
+
+```
+/home/eddi_knapp/.secret/dir.tar.gz.gpg
+/home/eddi_knapp/Documents/mcskidy_note.txt.gpg
+```
+
+ #### Decrypting the GPG File
+ 
+
+```
+gpg --batch --yes --passphrase "<flags>" /home/eddi_knapp/Documents/mcskidy_note.txt.gpg
+cat /home/eddi_knapp/Documents/mcskidy_note.txt
+```
 
 
 

@@ -42,6 +42,10 @@ This shows the commit history. To see actual file contents from a commit:
 
 ![screenshoot2](img/screenshoot2.png)
 
+```
++PASSFRAG2: [REDACTED]
+```
+
 
 
 

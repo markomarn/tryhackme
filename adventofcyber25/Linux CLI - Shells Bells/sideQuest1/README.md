@@ -143,8 +143,7 @@ ls dir
 ```
 the picture will be like this
 
-![sq1.png](img/sq1.png)
-
+<img src="img/sq1.png" alt="sq1.png" width="50%" height="auto">
 
 
 

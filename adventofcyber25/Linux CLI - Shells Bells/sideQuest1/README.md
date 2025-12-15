@@ -86,6 +86,21 @@ gpg --batch --yes --passphrase "<flags>" /home/eddi_knapp/Documents/mcskidy_note
 cat /home/eddi_knapp/Documents/mcskidy_note.txt
 ```
 
+The note says to edit ```/home/socmas/2025/wishlist.txt```  with UNLOCK_KEY: [REDACTED], replace the contents with the new text, and save it.
+
+```
+Chocolate egg assortments (assorted sizes and flavours)
+Hand-painted decorative Easter eggs
+Easter basket with plush toys and treats
+Seasonal flower bouquet (tulips & daffodils)
+Bunny-themed cookie gift boxes
+Spring picnic hamper with pastel treats
+DIY egg-decorating kit with paints and stencils
+Ceramic egg display stand for mantels
+Easter egg hunt supply pack (egg fillers & clues)
+Pastel ribbon and wrapping set for gifts
+[UNLOCK_KEY]
+```
 
 
 

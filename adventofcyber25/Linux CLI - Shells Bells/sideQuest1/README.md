@@ -101,6 +101,10 @@ Dedicated secure test lab VM pool
 Incident response runbook templates and playbooks
 Electronic safe drive with encrypted backups
 ```
+The website will show ciphertext, copy the Gibberish message text.
+
+![screenshoot3](img/screenshoot3.png)
+
 
 
 
